@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 
 # Load saved model and vectorizer
-model = joblib.load("model/crypto_sentiment_model_10000feat_v2.pth")
-vectorizer = joblib.load("model/tfidf_vectorizer_10000feat.pkl")
+model = joblib.load("model/crypto_sentiment_model_fudboosted_v3.pth")
+vectorizer = joblib.load("model/tfidf_vectorizer_fudboosted_v3.pkl")
 
 # Map label IDs back to sentiment names
 label_map = {
